@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Prints quote
  *
  *
