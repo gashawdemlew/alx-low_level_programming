@@ -1,5 +1,4 @@
-#include "holberton.h"
-
+#include "main.h"
 
 /**
 
@@ -8,7 +7,6 @@
  * @n: integer argument
 
  */
-
 
 
 void print_times_table(int n)
