@@ -28,7 +28,7 @@ int _strlen(char *s)
  *
  *   * @str: string to print
  *
- *    */
+ */
 
 void puts2(char *str)
 {
