@@ -37,9 +37,6 @@ int _strlen(char *s)
 
 	return (1 + (_strlen(s)));
 }
-
-
-
 /**
  *
  *  * is_palindrome - check if palindrome
