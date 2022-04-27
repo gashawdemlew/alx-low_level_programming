@@ -37,26 +37,18 @@ int _strlen(char *s)
 
 	return (1 + (_strlen(s)));
 }
+
 /**
- *
  *  * is_palindrome - check if palindrome
  *
  *   * @s: string to check
  *
  *    * Return: 1 if palindrome, 0 if not
- *
- *     */
-
-
+ */
 
 int is_palindrome(char *s)
-
 {
+	int len = _strlen(s);
 
-		int len = _strlen(s);
-
-
-
-			return (compare(s, (s + len - 1)));
-
+	return (compare(s, (s + len - 1)));
 }
