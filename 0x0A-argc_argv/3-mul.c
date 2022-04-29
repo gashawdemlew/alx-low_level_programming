@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	char *s1 = argv[1];
 
 	char *s2 = argv[2];
-	
+
 	num1 = num2 = 0;
 
 	if (argc != 3)
