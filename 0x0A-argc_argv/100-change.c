@@ -58,13 +58,11 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
 	if (change < 0 && numchecker(&input[1]) == 0)
 	{
 		printf("Error\n");
 		return (1);
 	}
-
 	if (change < 0)
 	{
 		change = 0;
@@ -79,7 +77,7 @@ int main(int argc, char *argv[])
 	coins = coins + change / 2;
 	change = change % 2;
 	coins += change;
-	
+
 	printf("%d\n", coins);
 	return (0);
 }
