@@ -69,11 +69,8 @@ int word_count(char *s, int word)
 
 /**
  *  * strtow - create an array of words from string
- *
  *   * @str: string
- *
- *    * Description: create array of words from string, last element should be null
- *
+ *    * Description: create array of words from string
  *     * Return: pointer to strings, NULL if fails
  */
 
