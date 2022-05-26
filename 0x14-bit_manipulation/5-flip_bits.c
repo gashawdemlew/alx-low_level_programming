@@ -4,11 +4,8 @@
 
 /**
  *  * flip_bits - counts the number of bits needed to flip to go from n to m
- *
  *   * @n: first unsigned long int
- *
  *    * @m: second unsigned long int
- *
  *     * Return: number of bits flipped
  */
 
